@@ -50,6 +50,7 @@ ARG NODETYPE=fullnode
 ENV BNET=testnet
 #ENV BNET=prod
 ENV BNCHOME=/opt/bnbchaind
+ENV BVER=latest
 
 COPY --from=builder /node-binary/cli/testnet/${CLIVER_TESTNET}/linux/tbnbcli /node-binary/cli/testnet/${BVER}/linux/
 COPY --from=builder /node-binary/cli/prod/${CLIVER_PROD}/linux/bnbcli /node-binary/cli/prod/${BVER}/linux/
