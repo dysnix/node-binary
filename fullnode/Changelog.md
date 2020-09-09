@@ -1,5 +1,50 @@
 # Changelog
 
+## 0.7.2-bsc.beta.5
+
+*Sep. 7th*
+
+Fix bugs with breath block interval
+
+## 0.8.0
+
+*Aug. 23th*
+
+**New Features**
+
+* Enable BNB staking
+* Enable Cross-chain transfer between BC and BSC
+* Add BSC on-chain governance
+
+## 0.7.2-bsc.beta.4
+
+*Aug. 21th*
+
+Fix bugs with reward distribution
+
+## 0.7.2-bsc.beta.3
+
+*July. 31rd*
+
+Add minor changes
+
+## 0.7.2-bsc.beta.2-hf.1
+
+*July. 27rd*
+
+**Bug Fix**
+
+* Fix node crash when node failed to load block from db after state sync.
+* Fix `latest_block_height` of status api do not update after switch to `hot-sync`.
+
+## 0.7.2-bsc.beta.2
+
+*July. 23rd*
+
+**New Features**
+
+* Staking features for Binance Smart Chain
+
 ## 0.7.1
 
 **Bug Fix**
